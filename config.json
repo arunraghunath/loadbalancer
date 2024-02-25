@@ -1,0 +1,19 @@
+{
+    "lbport" : ":9090",
+    "healthCheckInterval" : "10s",
+    "servers" : [{
+        "name": "server1",
+        "port": ":8081",
+        "url": "http://localhost:8081/"
+    },
+    {   
+        "name": "server2",
+        "port": ":8082",
+        "url": "http://localhost:8082/"
+    },
+    {   
+        "name": "server3",
+        "port": ":8083",
+        "url": "http://localhost:8083/"
+    }]
+}
